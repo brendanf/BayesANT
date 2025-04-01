@@ -27,10 +27,30 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.1
-Imports: magrittr, stringr, Rcpp (>= 1.0.5), RcppArmadillo(>= 0.10.1.2.0), seqinr, knitr, 
-          kmer, dplyr, purrr, ggplot2, readr, progress, doParallel, foreach, stats, utils, ape, xml2
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: rmarkdown
+Imports:
+  magrittr,
+  stringr,
+  Rcpp (>= 1.0.5),
+  RcppArmadillo(>= 0.10.1.2.0),
+  seqinr,
+  knitr, 
+  kmer,
+  dplyr,
+  purrr,
+  ggplot2,
+  readr,
+  progress,
+  doParallel,
+  foreach,
+  stats,
+  utils,
+  ape,
+  xml2
+LinkingTo:
+  Rcpp,
+  RcppArmadillo
+Suggests:
+  rmarkdown
 VignetteBuilder: knitr
 Depends: 
     R (>= 4.0)
